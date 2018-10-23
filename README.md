@@ -3,6 +3,8 @@
 ID# OscarHemmingsen & ID# ThanhVuongng
 , Stud ID# 1802010265 & Stud ID# 1802010228
 
+# Outcome of NFL games based on the QB's performance
+
 # Description
 
 This project will analyse the stats computed by NFL quarterbacks from different games in the years 2000-2016. This is underlined in the saying of how important that position is in the sport. Therefore, by a categorized "good performance" the QB's team should be more proun to win the game. The data used will be stats compiled by quarterbacks as well as games won or lost by that QB's team.
