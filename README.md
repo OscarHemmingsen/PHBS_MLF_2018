@@ -1,7 +1,6 @@
 # PHBS_MLF_2018
 
-ID# OscarHemmingsen & ID# ThanhVuongng
-, Stud ID# 1802010265 & Stud ID# 1802010228
+ID# OscarHemmingsen - 1802010265 & ID# ThanhVuongng - 1802010228
 
 # Outcome of NFL games based on the QB's performance
 
