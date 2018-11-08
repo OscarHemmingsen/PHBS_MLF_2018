@@ -10,7 +10,7 @@ This project will use the statistics from different Quarterback performances ove
 
 ## Data & Preprocessing
 
-![Data overview](‪C:\Users\oscar\Documents\GitHub\PHBS_MLF_2018\Data overview.jpg)
+![data overview](https://user-images.githubusercontent.com/42951299/48195285-2aed8000-e38a-11e8-8c3d-7226dd9789d2.jpg)
 
 
 
