@@ -28,3 +28,4 @@ The goals of this project are the following:
 
 #confusion metrics 
 
+![confusion matrix](https://user-images.githubusercontent.com/42951188/48194979-74899b00-e389-11e8-9a3a-2a005d4da274.png)
