@@ -17,6 +17,25 @@ This project will use the statistics from different Quarterback performances ove
 
 ## Models & Graphs
 
+### Logistis regression
+
+<img width="590" alt="logistic regression" src="https://user-images.githubusercontent.com/42951188/48195643-2d9ca500-e38b-11e8-96e2-2a8f1cfa2dbc.png">
+
+### Gini index
+<img width="697" alt="gini index" src="https://user-images.githubusercontent.com/42951188/48195642-2d040e80-e38b-11e8-9753-3827cd9a254c.png">
+
+
+### Information gain 
+<img width="748" alt="information gain" src="https://user-images.githubusercontent.com/42951188/48195645-2d9ca500-e38b-11e8-91e1-cc638a9bcfe1.png">
+
+
+### Confusion matrix 
+![confusion matrix](https://user-images.githubusercontent.com/42951188/48194979-74899b00-e389-11e8-9a3a-2a005d4da274.png)
+#### Accuracy, Prediction and Recall
+<img width="254" alt="accuracy_prediction_recall" src="https://user-images.githubusercontent.com/42951188/48195644-2d9ca500-e38b-11e8-9bf8-cea2e7d7de16.png">
+
+
+
 
 # Goal of the project
 
@@ -26,6 +45,3 @@ The goals of this project are the following:
 - Being able to show the changes in the game over time based on data from the early 2000's.
 
 
-#confusion metrics 
-
-![confusion matrix](https://user-images.githubusercontent.com/42951188/48194979-74899b00-e389-11e8-9a3a-2a005d4da274.png)
