@@ -18,7 +18,7 @@ We then wanted to get a visual on the means of a win and a loss as well as table
 
 ![mean win-loss stats](https://user-images.githubusercontent.com/42951299/48195951-fd093b00-e38b-11e8-84a8-b884dd0690b0.jpg)
 
-![interceptions vs outcome](https://user-images.githubusercontent.com/42951299/48198807-02b74e80-e395-11e8-8c9a-ff1736ceda49.jpg)
+![statistik over sejre 2](https://user-images.githubusercontent.com/42951299/48198984-a43ea000-e395-11e8-90bb-a098fd576f1e.png)
 
 
 ![statistik over sejre](https://user-images.githubusercontent.com/42951299/48198823-14005b00-e395-11e8-91d0-c8c96b123ec3.png)
