@@ -18,7 +18,10 @@ We then wanted to get a visual on the means of a win and a loss as well as table
 
 ![mean win-loss stats](https://user-images.githubusercontent.com/42951299/48195951-fd093b00-e38b-11e8-84a8-b884dd0690b0.jpg)
 
+![interceptions vs outcome](https://user-images.githubusercontent.com/42951299/48198807-02b74e80-e395-11e8-8c9a-ff1736ceda49.jpg)
 
+
+![statistik over sejre](https://user-images.githubusercontent.com/42951299/48198823-14005b00-e395-11e8-91d0-c8c96b123ec3.png)
 
 
 ## Models & Graphs
@@ -41,6 +44,10 @@ Information gain
 
 <img width="748" alt="information gain" src="https://user-images.githubusercontent.com/42951188/48195645-2d9ca500-e38b-11e8-91e1-cc638a9bcfe1.png">
 
+### KNN with K=8
+
+![knn](https://user-images.githubusercontent.com/42951299/48198815-0b0f8980-e395-11e8-8d42-1a70e8c5c7e1.jpg)
+
 
 ### Confusion matrix and ratios 
 
@@ -51,6 +58,10 @@ Below is our confusion matrix and the following ratios
 Accuracy, Prediction and Recall
 
 <img width="254" alt="accuracy_prediction_recall" src="https://user-images.githubusercontent.com/42951188/48195644-2d9ca500-e38b-11e8-9bf8-cea2e7d7de16.png">
+
+Cross-validation
+
+![cross-validation](https://user-images.githubusercontent.com/42951299/48198812-077c0280-e395-11e8-80c7-df11f8bdd19a.jpg)
 
 
 
