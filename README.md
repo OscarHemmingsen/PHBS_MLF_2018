@@ -26,4 +26,5 @@ The goals of this project are the following:
 - Being able to show the changes in the game over time based on data from the early 2000's.
 
 
-
+#confusion metrics 
+!![What is this](confusion matrix.png)
