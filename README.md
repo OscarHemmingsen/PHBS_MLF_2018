@@ -16,6 +16,8 @@ Data is presented the following way:
 
 We then wanted to get a visual on the means of a win and a loss as well as tables of the features vs the game outcome
 
+![mean win-loss stats](https://user-images.githubusercontent.com/42951299/48195951-fd093b00-e38b-11e8-84a8-b884dd0690b0.jpg)
+
 
 
 
@@ -23,19 +25,31 @@ We then wanted to get a visual on the means of a win and a loss as well as table
 
 ### Logistis regression
 
+First, we stated trying to build a logistic regression model. This was mainly due to its simplicity and the fact we have a binary output
+
 <img width="590" alt="logistic regression" src="https://user-images.githubusercontent.com/42951188/48195643-2d9ca500-e38b-11e8-96e2-2a8f1cfa2dbc.png">
 
-### Gini index
+### Decision tree
+
+We build two decision tree models. One, where we decide via the gini and the second with the information gain
+
+Gini index
+
 <img width="697" alt="gini index" src="https://user-images.githubusercontent.com/42951188/48195642-2d040e80-e38b-11e8-9753-3827cd9a254c.png">
 
+Information gain 
 
-### Information gain 
 <img width="748" alt="information gain" src="https://user-images.githubusercontent.com/42951188/48195645-2d9ca500-e38b-11e8-91e1-cc638a9bcfe1.png">
 
 
-### Confusion matrix 
+### Confusion matrix and ratios 
+
+Below is our confusion matrix and the following ratios
+
 ![confusion matrix](https://user-images.githubusercontent.com/42951188/48194979-74899b00-e389-11e8-9a3a-2a005d4da274.png)
-#### Accuracy, Prediction and Recall
+
+Accuracy, Prediction and Recall
+
 <img width="254" alt="accuracy_prediction_recall" src="https://user-images.githubusercontent.com/42951188/48195644-2d9ca500-e38b-11e8-9bf8-cea2e7d7de16.png">
 
 
