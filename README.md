@@ -8,12 +8,12 @@ ID# OscarHemmingsen - 1802010265 & ID# ThanhVuongng - 1802010228
 
 This project will use the statistics from different Quarterback performances over time dating back to 2002. Furthermore, we have collected the actual outcome of those game, so that we are able to match statistics from the QB's performance to the actual outcome. Hence, we will try to build a model that will be able to predict the outcome of an NFL-game based on the QB's performance.
 
-# Data & Preprocessing
+## Data & Preprocessing
 
 
 
 
-# Models & Graphs
+## Models & Graphs
 
 
 # Goal of the project
