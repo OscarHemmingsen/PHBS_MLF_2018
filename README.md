@@ -6,8 +6,20 @@ ID# OscarHemmingsen - 1802010265 & ID# ThanhVuongng - 1802010228
 
 # Description
 
-This project will analyse the stats computed by NFL quarterbacks from different games in the years 2000-2016. This is underlined in the saying of how important that position is in the sport. Therefore, by a categorized "good performance" the QB's team should be more proun to win the game. The data used will be stats compiled by quarterbacks as well as games won or lost by that QB's team.
+This project will use the statistics from different Quarterback performances over time dating back to 2002. Furthermore, we have collected the actual outcome of those game, so that we are able to match statistics from the QB's performance to the actual outcome. Hence, we will try to build a model that will be able to predict the outcome of an NFL-game based on the QB's performance.
+
+# Data & Preprocessing
+
+
+# Models & Graphs
+
 
 # Goal of the project
 
-The goal of this project is to see if it is possible to predict an NFL game based on the QB's performance. Performance in the NFL and typical American sports leagues are often based on statistics and metrics. Hence, it should be possible to classify e.g. "good", "medium" and "bad" performances. The position is by far in total and average the best paid position in the sport, which adds further suspense in our minds to the goal as to whether the QB's stats / performance can predict the outcome of the game.
+The goals of this project are the following:
+- Ability to predict the outcome of an NFL-game based on the Quarterbacks (QB) performance.
+- Group performances "together" and quantify a "bad", "medium" and "good" performance.
+- Being able to show the changes in the game over time based on data from the early 2000's.
+
+
+
