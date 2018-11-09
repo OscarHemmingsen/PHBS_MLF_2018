@@ -59,7 +59,7 @@ Accuracy, Prediction and Recall
 
 <img width="254" alt="accuracy_prediction_recall" src="https://user-images.githubusercontent.com/42951188/48195644-2d9ca500-e38b-11e8-9bf8-cea2e7d7de16.png">
 
-Cross-validation
+Cross-validated score
 
 ![cross-validation](https://user-images.githubusercontent.com/42951299/48198812-077c0280-e395-11e8-80c7-df11f8bdd19a.jpg)
 
