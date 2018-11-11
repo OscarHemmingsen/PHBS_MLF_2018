@@ -65,7 +65,11 @@ Recall = 121 / (121+18) = 87.05 %
 
 Based on our confusion matrix and its ratios, we are fairly happy with its precision and the very good recall rate.
 
-Next, and final for the regression is the 
+As the final step of our model, we wanted to do a cross-validation score. Below is the result.
+
+![cross-validation](https://user-images.githubusercontent.com/42951299/48198812-077c0280-e395-11e8-80c7-df11f8bdd19a.jpg)
+
+We can see that the cross-validated score choose six features as the optimal number of components. Based on the components chosen, we can see that the model excluded 'Yards' and 'Loss'. In theory this makes sense since yards is not equal to a score and therefore also whether the team won the game. 'Loss' is also excluded, which as well can make sense.
 
 ### Decision tree
 
@@ -92,15 +96,23 @@ Based on the results above we can see that both have identical results which is
 
 
 
-
-Cross-validated score
-
-![cross-validation](https://user-images.githubusercontent.com/42951299/48198812-077c0280-e395-11e8-80c7-df11f8bdd19a.jpg)
-
-
 ## PCA Analysis
 
+The PCA Analysis was done for the six chosen features from the logistic regression model (Attempt, Completion, Yards per attempt, Touchdown, Interception and Sack).
+
+First, we standardize the data via sklearn's standardscaler. Next step, we computed a covariance matrix with the following result.
+
 ![covariance matrix](https://user-images.githubusercontent.com/42951299/48309064-4e901080-e5ac-11e8-9fa4-5f4ed6beacd7.jpg)
+
+After computing eigenvectors, we get the following eigenvalues in descending order:
+- 2.0110661639356975
+- 1.7251521902794538
+- 0.9266389949619002
+- 0.7869981219238211
+- 0.46007402880727166
+- 0.09007050009185469
+
+
 
 # Goal of the project
 
