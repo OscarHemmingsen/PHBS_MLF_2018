@@ -90,9 +90,25 @@ Information gain
 
 Based on the results above we can see that both have identical results which is 
 
-### KNN with K=8
+### KNN 
 
-![knn](https://user-images.githubusercontent.com/42951299/48198815-0b0f8980-e395-11e8-8d42-1a70e8c5c7e1.jpg)
+Our third model is done with KNN. The KNN algorithm is very easy and convenient to use, however, we are not sure whether this algorithm will prove more useful than our other models, because of its penalty towards large datasets.
+
+Result of KNN, K = 8
+
+= 62.96 %
+
+Result of KNN, K = 30
+
+= 68.72 %
+
+As we can see our algorithm is not very good at predicting our dataset. Therefore, we will try to scale the features using the MinMax Scaling in sklearn.
+
+The result of scaling our model becomes an accuracy of 78.6 %, which is fairly good and on point with some of our other algorithms. Below is a classification report and an error rate graph for K = 1:40 of our scaled model.
+
+
+
+
 
 
 
