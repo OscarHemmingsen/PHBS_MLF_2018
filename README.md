@@ -40,13 +40,26 @@ It is very interesting to see that when a QB does not throw an interception his 
 
 To test our hypthosesis we have used different prediction and classifier models. Since our data comprises of a binary output we felt that a logistic regression would be the first natural step.
 
-Here, 
+### Logistic regression
 
-### Logistis regression
+First, we started by checking the correlation of our chosen features. We excluded the feature home/away since only wanted data "produced" by the QB. We also deleted points, as this is a natural outcome of the game. Then, we also excluded "QB Rating" since this feature is a mathematical formula comprised of stats by the QB in regards to his completion percentage, touchdown thrown, interceptions thrown. We found, as expected, this feature had a very high correlation with the other features. Therefore, the following eight were chosen:
 
-First, we stated trying to build a logistic regression model. This was mainly due to its simplicity and the fact we have a binary output
+![correlation matrix](https://user-images.githubusercontent.com/42951299/48309037-c4e04300-e5ab-11e8-9dfb-ea539d4e844c.jpg)
 
-<img width="590" alt="logistic regression" src="https://user-images.githubusercontent.com/42951188/48195643-2d9ca500-e38b-11e8-96e2-2a8f1cfa2dbc.png">
+As we can see there are only 2x2 features with high correlation which are attempts/completions and sack/loss. This is very naturally as if the QB throws more times he is much more likely to complete more times.
+The same goes for sacks (when the QB is tackled by the opposing team) and loss (yards lost by being sacked).
+
+We tested our logistic regression model with a train/test split of 0.2, = 80 % = train and 20 % = test and a random state of 42. Here we get an accuray of 79.42 %. We think this is fairly accurate, but we want to test our dataset further and see if we can get a better accurary. We tried a K-fold cross validation (K = 10) on our prediction model and came up with the following accurary = 76.71 %. With K = 5, the accurary increased to 76.82 % (up 0.11 percentage points), so there are not difference to K equal 5 or 10.
+
+We then wanted to build a confusion matrix for our logistic regression model. Here, we get the following output
+
+![confusion matrix](https://user-images.githubusercontent.com/42951188/48194979-74899b00-e389-11e8-9a3a-2a005d4da274.png)
+
+As shown above we get the following ratios:
+
+Accuracy = 
+Prediction = 
+Recall = 
 
 ### Decision tree
 
@@ -69,7 +82,7 @@ Information gain
 
 Below is our confusion matrix and the following ratios
 
-![confusion matrix](https://user-images.githubusercontent.com/42951188/48194979-74899b00-e389-11e8-9a3a-2a005d4da274.png)
+
 
 Accuracy, Prediction and Recall
 
@@ -80,7 +93,9 @@ Cross-validated score
 ![cross-validation](https://user-images.githubusercontent.com/42951299/48198812-077c0280-e395-11e8-80c7-df11f8bdd19a.jpg)
 
 
+## PCA Analysis
 
+![covariance matrix](https://user-images.githubusercontent.com/42951299/48309064-4e901080-e5ac-11e8-9fa4-5f4ed6beacd7.jpg)
 
 # Goal of the project
 
