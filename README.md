@@ -75,7 +75,7 @@ We can see that the cross-validated score choose six features as the optimal num
 
 We build two decision tree models. One, where we decide via the gini and the second with the information gain
 
-Gini impurity measures how often a randomly element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset. We wan't the Gini impurity to be as small as possible
+
 
 Gini index
 
