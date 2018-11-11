@@ -71,13 +71,20 @@ Next, and final for the regression is the
 
 We build two decision tree models. One, where we decide via the gini and the second with the information gain
 
+Gini impurity measures how often a randomly element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset. We wan't the Gini impurity to be as small as possible
+
 Gini index
 
 <img width="697" alt="gini index" src="https://user-images.githubusercontent.com/42951188/48195642-2d040e80-e38b-11e8-9753-3827cd9a254c.png">
 
+Based on the Gini index above and its result, we have not satifying with its accuracy because the 
+
+
 Information gain 
 
 <img width="748" alt="information gain" src="https://user-images.githubusercontent.com/42951188/48195645-2d9ca500-e38b-11e8-91e1-cc638a9bcfe1.png">
+
+Based on the results above we can see that both have identical results which is 
 
 ### KNN with K=8
 
