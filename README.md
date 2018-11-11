@@ -51,15 +51,21 @@ The same goes for sacks (when the QB is tackled by the opposing team) and loss (
 
 We tested our logistic regression model with a train/test split of 0.2, = 80 % = train and 20 % = test and a random state of 42. Here we get an accuray of 79.42 %. We think this is fairly accurate, but we want to test our dataset further and see if we can get a better accurary. We tried a K-fold cross validation (K = 10) on our prediction model and came up with the following accurary = 76.71 %. With K = 5, the accurary increased to 76.82 % (up 0.11 percentage points), so there are not difference to K equal 5 or 10.
 
-We then wanted to build a confusion matrix for our logistic regression model. Here, we get the following output
+We then wanted to build a confusion matrix for our logistic regression model. Here, we get the following output where 1 = W and 0 = L
 
 ![confusion matrix](https://user-images.githubusercontent.com/42951188/48194979-74899b00-e389-11e8-9a3a-2a005d4da274.png)
 
 As shown above we get the following ratios:
 
-Accuracy = 
-Prediction = 
-Recall = 
+Accuracy = (121+72) / (121+18+72+32) = 79.42 %
+
+Prediction = 121 / (121+32) = 79.08 % 
+
+Recall = 121 / (121+18) = 87.05 %
+
+Based on our confusion matrix and its ratios, we are fairly happy with its precision and the very good recall rate.
+
+Next, and final for the regression is the 
 
 ### Decision tree
 
@@ -78,15 +84,7 @@ Information gain
 ![knn](https://user-images.githubusercontent.com/42951299/48198815-0b0f8980-e395-11e8-8d42-1a70e8c5c7e1.jpg)
 
 
-### Confusion matrix and ratios 
 
-Below is our confusion matrix and the following ratios
-
-
-
-Accuracy, Prediction and Recall
-
-<img width="254" alt="accuracy_prediction_recall" src="https://user-images.githubusercontent.com/42951188/48195644-2d9ca500-e38b-11e8-9bf8-cea2e7d7de16.png">
 
 Cross-validated score
 
