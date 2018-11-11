@@ -146,11 +146,23 @@ Component Explained Variance | Cumulative Explained Variance
 7.67 % | 98.50 %
 1.50 % | 100 %
 
-# Goal of the project
+## Goal of the project
 
 The goals of this project are the following:
-- Ability to predict the outcome of an NFL-game based on the Quarterbacks (QB) performance.
-- Group performances "together" and quantify a "bad", "medium" and "good" performance.
-- Being able to show the changes in the game over time based on data from the early 2000's.
+- Ability to predict the outcome of an NFL-game based on teh QB's performance
+- Predict games on 'old data' to see if the game has changed a lot over the years
+
+### Conclusion
 
 
+
+## Sources
+
+Our sources used for our project which includes everything from theory to coding examples are:
+- Data Camp
+- Scikit-learn.org
+- Machinelearningmastery.com
+- plot.ly
+- Stackabuse.com
+
+... and various sheets, slides and textbooks provided in lectures.
