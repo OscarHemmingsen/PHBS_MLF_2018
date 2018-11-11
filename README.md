@@ -151,7 +151,7 @@ In this model we wan't to use the train dataset between 2002-2003 to predict the
 
 <img width="1096" alt="skaermbillede 2018-11-11 kl 20 15 16" src="https://user-images.githubusercontent.com/42951188/48312762-9899e600-e5ee-11e8-84ce-98b5ab74ee78.png">
 
-Even though the game has been changing a lot, the old dataset is still in some degree to predict the outcome of the game in 2016. 
+Even though the game has been changing a lot, the old dataset is still able to predict the outcome of the game in 2016 with high prediction rate. 
 
 
 ## Goal of the project
