@@ -106,6 +106,11 @@ As we can see our algorithm is not very good at predicting our dataset. Therefor
 
 The result of scaling our model becomes an accuracy of 78.6 %, which is fairly good and on point with some of our other algorithms. Below is a classification report and an error rate graph for K = 1:40 of our scaled model.
 
+![classification report knn](https://user-images.githubusercontent.com/42951299/48310671-89567080-e5cd-11e8-86fc-d2b055afe584.jpg)
+
+![knn error model](https://user-images.githubusercontent.com/42951299/48310673-8d828e00-e5cd-11e8-8602-a7f2c336d4e1.jpg)
+
+
 
 
 
