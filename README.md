@@ -73,22 +73,17 @@ We can see that the cross-validated score choose six features as the optimal num
 
 ### Decision tree
 
-We build two decision tree models. One, where we decide via the gini and the second with the information gain
-
-
+The second classifier model that we wanted to compute was a decision tree. Here, we made two different algorithms. One, based on the gini index and a second with information entropy. The two model's code is listed below. The results are the following:
 
 Gini index
 
 <img width="697" alt="gini index" src="https://user-images.githubusercontent.com/42951188/48195642-2d040e80-e38b-11e8-9753-3827cd9a254c.png">
 
-Based on the Gini index above and its result, we have not satifying with its accuracy because the 
-
-
 Information gain 
 
 <img width="748" alt="information gain" src="https://user-images.githubusercontent.com/42951188/48195645-2d9ca500-e38b-11e8-91e1-cc638a9bcfe1.png">
 
-Based on the results above we can see that both have identical results which is 
+It is quite interesting that we get the same accuracy on our models. However, it is worth noting that the two algorithms are a little worse than our other models. However, they are still 'fairly ok' and is useful in some sense.  
 
 ### KNN 
 
