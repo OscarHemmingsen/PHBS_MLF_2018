@@ -112,7 +112,18 @@ After computing eigenvectors, we get the following eigenvalues in descending ord
 - 0.46007402880727166
 - 0.09007050009185469
 
+![pca](https://user-images.githubusercontent.com/42951299/48309858-54dab880-e5bd-11e8-94dc-1c3dd5414298.jpg)
 
+Above is a graph on the cumulative explained variance for our data. The following table shows the single explained variance and the cumulative explained variance:
+
+Component Explained Variance | Cumulative Explained Variance
+-----------------------------|------------------------------
+33.52 % | 33.52 %
+28.75 % | 62.27 %
+15.44 % | 77.71 %
+13.12 % | 90.83 %
+7.67 % | 98.50 %
+1.50 % | 100 %
 
 # Goal of the project
 
