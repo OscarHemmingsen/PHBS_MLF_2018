@@ -2,7 +2,7 @@
 ## PHBS_MLF_2018
 
 ID# OscarHemmingsen - 1802010265 
-ID# ThanhVuongng - 1802010228
+& ID# ThanhVuongng - 1802010228
 
 ## Description
 
@@ -12,15 +12,18 @@ This project will use the statistics from different Quarterback (hereafter QB) p
 
 Our dataset was found on Kaggle in which all different quarterback performances from the late 90's up until 2016 was included. Here, various statistics such as attempts, completions, touchdowns etc. were included. However, we needed to find out whether the team actually lost or won that actual game. This statistic was not included in the dataset. Therefore, we found via NFL.com's database the actual outcome of that particular game in which we matched the year and the quarterback to the actual game.
 
-Since the dataset was for ALL QBs that had played a game, it also included backup statistics e.g. when the team is leading by a lot and the team decides to rest the starting players. Therefore, we made a threshold in which all QBs had to at least make 15 attempts in the game. We felt this would give the indication that the QB had at least started the game and probably played at least half of the game.
+Since the dataset was for ALL QBs that had played a game, it also included backup statistics e.g. when the team is leading by a lot and the team decides to rest the starting players. Therefore, we made a threshold in which all QBs had to at least make 15 attempts in the game. We felt this would give the indication that the QB had at least started the game and probably played at least half of the game. Our dataset is comprised of 1,214 QB stats where as 688 are wins and the rest (526) are losses.
 
 Below is a snapshot of how our data is presented:
+
 
 ![data overview](https://user-images.githubusercontent.com/42951299/48195285-2aed8000-e38a-11e8-8c3d-7226dd9789d2.jpg)
 
 First, we wanted to get visuals of the data, so we made some simple graphs and tables so we could maybe get some pre-indications for our model.
 
+
 ![mean win-loss stats](https://user-images.githubusercontent.com/42951299/48195951-fd093b00-e38b-11e8-84a8-b884dd0690b0.jpg)
+
 
 Above is a mean computation of a winning and losing QB. It is interesting to see that a winning QB on average throws fewer times than a losing QB. We would assume based on the current state of the NFL and how the game is played now that the roles would have been switched. Other than that we conclude that the data is fairly logical in which the QB throws more touchdowns and less interceptions (when the opposing team catches the ball) when the team is winning.
 
@@ -31,9 +34,13 @@ Below are two simple versus tables for win or losses compared to touchdowns and 
 ![statistik over sejre](https://user-images.githubusercontent.com/42951299/48198823-14005b00-e395-11e8-91d0-c8c96b123ec3.png)
 
 
-
+It is very interesting to see that when a QB does not throw an interception his team is almost four times as likely to win a game. The ratio of winning a game compared to how many touchdowms the QB throws is very interesting. The team is twice as likely to lose the game when the QB does not throw a touchdown, and e.g. when he throws three or more they are almost guaranteed to win.
 
 ## Models & Graphs
+
+To test our hypthosesis we have used different prediction and classifier models. Since our data comprises of a binary output we felt that a logistic regression would be the first natural step.
+
+Here, 
 
 ### Logistis regression
 
