@@ -146,12 +146,13 @@ Component Explained Variance | Cumulative Explained Variance
 7.67 % | 98.50 %
 1.50 % | 100 %
 
-## Prediction rate of outcome in 2016
-In this model we wan't to use the train dataset between 2002-2003 to predict the outcome of the game in 2016. We expect that the prediction rate will not be high, because the game has been changing a lot since. 
+## Accuracy rate on 2016 games
+
+In this model we wanted to test our dataset on its ability to predict game outcomes in 2016 based on training data from 2002 and 2003. The reason for this train/test split is beacause of the changes the game of American Football has undergone. Therefore, we wanted to see if we could build a logistic regression model that were able to fairly accurate predict 2016 games based on training data from 2002.
 
 <img width="1096" alt="skaermbillede 2018-11-11 kl 20 15 16" src="https://user-images.githubusercontent.com/42951188/48312762-9899e600-e5ee-11e8-84ce-98b5ab74ee78.png">
 
-Even though the game has been changing a lot, the old dataset is still able to predict the outcome of the game in 2016 with high prediction rate. 
+As we can see above, the model is actually fairly close to our original accuracy rate. This is a little surprising to us since we would have expected the model to do a litte worse. This result could just be based on random luck or we need more data to train and test the model.
 
 
 ## Goal of the project
@@ -162,7 +163,9 @@ The goals of this project are the following:
 
 ### Conclusion
 
+From our above prediction and accuracy models we can conlcude that we can be a 'fairly good' but not great rate, predict the outcome of an NFL-game based on the QB's performance. On average we have managed to build models that could predict the game in between 70 - 80 % range. We think this a fairly good prediction rate for a game that is very unpredictable in its nature. However, we actually expected the rates to be a little higher, to which we must conclude that, even though, we tried to excluded biased and correlated data from anything but the actual QB performance, much of the QB's stats are simply still too affected by other players on the team. Another, and also very logic reason, is that the QB, although very important, is not Alpha & Omega to an NFL team and he can solely not win a games based on his merits of the game.
 
+Further, we also tested some of our models on our newest data based on training sets from 2002 and 2003. Here, we found a very insignificantly difference, to which we were surprised a little. The conclusion for this part of the project is kind of similar to the above one, as the team is still the most important aspect of an American football game outcome. For better testing of our newest data, we could have tried to find even older data.
 
 ## Sources
 
