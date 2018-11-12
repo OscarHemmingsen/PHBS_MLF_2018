@@ -106,12 +106,6 @@ The result of scaling our model becomes an accuracy of 78.6 %, which is fairly g
 ![knn error model](https://user-images.githubusercontent.com/42951299/48310673-8d828e00-e5cd-11e8-8602-a7f2c336d4e1.jpg)
 
 
-
-
-
-
-
-
 ## PCA Analysis
 
 The PCA Analysis was done for the six chosen features from the logistic regression model (Attempt, Completion, Yards per attempt, Touchdown, Interception and Sack).
@@ -128,7 +122,7 @@ After computing eigenvectors, we get the following eigenvalues in descending ord
 - 0.46007402880727166
 - 0.09007050009185469
 
-![pca](https://user-images.githubusercontent.com/42951299/48309858-54dab880-e5bd-11e8-94dc-1c3dd5414298.jpg)
+![new pca](https://user-images.githubusercontent.com/42951299/48321300-658e3b80-e65c-11e8-9de8-4ac56ceaeee8.jpg)
 
 Above is a graph on the cumulative explained variance for our data. The following table shows the single explained variance and the cumulative explained variance:
 
