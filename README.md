@@ -1,7 +1,7 @@
 # Outcome of NFL games based on the QB's performance
 ## PHBS_MLF_2018
 
-ID# OscarHemmingsen - 1802010265 
+
 & ID# ThanhVuongng - 1802010228
 
 ## Description
